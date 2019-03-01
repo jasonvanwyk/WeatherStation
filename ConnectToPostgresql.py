@@ -4,7 +4,7 @@
 #added this coment to test git
  
 import psycopg2
-import sys
+#import sys comented out this line to test git
 import datetime
 import time
 import random
