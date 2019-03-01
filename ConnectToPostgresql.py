@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+#added this coment to test git
  
 import psycopg2
 import sys
