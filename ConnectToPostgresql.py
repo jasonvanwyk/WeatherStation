@@ -30,3 +30,4 @@ for loop in range(0,10):
 
     print(x) 
     time.sleep(1)
+# copyright 2019
