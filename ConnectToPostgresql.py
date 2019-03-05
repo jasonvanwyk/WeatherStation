@@ -17,7 +17,7 @@ for loop in range(0,10):
     try:
         x = random.randint(1,101)
         t = datetime.datetime.now() 
-        con = psycopg2.connect("host='localhost' dbname='Jason' user='postgres' password='xxxxx'")   
+        con = psycopg2.connect("host='localhost' dbname='Jason' user='postgres' password='xxxxxx'")   
         cur = con.cursor()
         #cur.execute("INSERT INTO tempdata VALUES(now(), %(x))")
         cur.execute("INSERT INTO tempdata VALUES (%s, %s)", (x, t,))
